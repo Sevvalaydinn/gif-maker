@@ -2,7 +2,7 @@ import imageio
 from PIL import Image, ImageEnhance
 import os
 
-image_path = "cat.jpg"  #
+image_path = "cat.jpg"
 output_gif = "animated_cat.gif"
 
 image = Image.open(image_path)
